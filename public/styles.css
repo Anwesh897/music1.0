@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, indigo, dodgerblue);
 }
 a {
   text-decoration: none;
@@ -14,4 +13,12 @@ a {
 }
 a:hover {
   color: black;
+}
+.page1 {
+  background: url("https://images2.alphacoders.com/263/26350.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+h4 {
+  color: white;
 }
