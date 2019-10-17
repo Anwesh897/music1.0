@@ -2,23 +2,52 @@ body {
   margin: 0;
   padding: 0;
 }
-a {
+.header {
+  width: 100vw;
+  height: 7vh;
+  background: linear-gradient(to left, white, rgb(100, 12, 12));
+  opacity: 1;
+  /* rgb(100, 12, 12) */
+}
+.listen {
   text-decoration: none;
   color: white;
   font-size: 30px;
-  /* border: 1px solid white; */
   background: dodgerblue;
-  margin-left: 5px;
+  left: 86vw;
   border-radius: 5px;
+  top: 0.7vh;
+  position: absolute;
 }
-a:hover {
+.listen:hover {
   color: black;
+  margin-left: -1vw;
+  background: linear-gradient(to right, white, dodgerblue);
 }
 .page1 {
   background: url("https://images2.alphacoders.com/263/26350.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
 }
-h4 {
-  color: white;
+div {
+  display: inline-grid;
+  float: left;
+}
+a {
+  font-size: 20px;
+  transition: 0.1s ease;
+}
+.list:hover {
+  margin-right: 20px;
+  background: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.list {
+  background: whitesmoke;
+  border: 3px solid black;
+  border-radius: 5px;
+  position: relative;
+  top: 100px;
 }
