@@ -7,7 +7,11 @@ a {
   text-decoration: none;
   color: white;
   font-size: 30px;
+  /* border: 1px solid white; */
+  background: dodgerblue;
+  margin-left: 5px;
+  border-radius: 5px;
 }
 a:hover {
-  text-decoration: underline;
+  color: black;
 }
