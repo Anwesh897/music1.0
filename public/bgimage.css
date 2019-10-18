@@ -4,10 +4,40 @@
   background-size: 100vw;
 }
 
+@media all and (max-width: 1390px) and (max-height: 1066px) {
+  .page1 {
+    background-size: 180vh;
+    background-position-x: -18vw;
+  }
+}
 @media all and (max-width: 1366px) and (max-height: 1024px) {
   .page1 {
     background-size: 180vh;
     background-position-x: -15vw;
+  }
+}
+@media all and (max-width: 1306px) and (max-height: 1024px) {
+  .page1 {
+    background-size: 180vh;
+    background-position-x: -18vw;
+  }
+}
+@media all and (max-width: 1266px) and (max-height: 1024px) {
+  .page1 {
+    background-size: 180vh;
+    background-position-x: -20vw;
+  }
+}
+@media all and (max-width: 1106px) and (max-height: 1024px) {
+  .page1 {
+    background-size: 180vh;
+    background-position-x: -30vw;
+  }
+}
+@media all and (max-width: 1066px) and (max-height: 1390px) {
+  .page1 {
+    background-size: 180vh;
+    background-position-x: -18vw;
   }
 }
 @media all and (max-width: 1024px) and (max-height: 1366px) {
@@ -16,10 +46,72 @@
     background-position-x: -20vw;
   }
 }
+@media all and (max-width: 1024px) and (max-height: 1306px) {
+  .page1 {
+    background-size: 180vh;
+    background-position-x: -15vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 1266px) {
+  .page1 {
+    background-size: 180vh;
+    background-position-x: -12vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 1106px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-y: -22vh;
+    background-position-x: -15vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 906px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-x: -46vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 866px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-x: -41vw;
+  }
+}
 @media all and (max-width: 1024px) and (max-height: 768px) {
   .page1 {
     background-size: 180vh;
     background-position-x: -15vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 766px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-x: -28vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 706px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-x: -24vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 666px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-x: -20vw;
+  }
+}
+@media all and (max-width: 1024px) and (max-height: 606px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-x: -15vw;
+  }
+}
+@media all and (max-width: 906px) and (max-height: 1024px) {
+  .page1 {
+    background-size: 220vh;
+    background-position-y: -23vh;
+    background-position-x: -25vw;
   }
 }
 @media all and (max-width: 823px) and (max-height: 411px) {
@@ -36,11 +128,32 @@
     background-position-x: -13vh;
   }
 }
+@media all and (max-width: 766px) and (max-height: 1024px) {
+  .page1 {
+    background-size: 200vh;
+    background-position-y: -10vh;
+    background-position-x: -30vw;
+  }
+}
 @media all and (max-width: 736px) and (max-height: 414px) {
   .page1 {
     background-size: 200vh;
     background-position-y: -10vh;
     background-position-x: -5vw;
+  }
+}
+@media all and (max-width: 706px) and (max-height: 1024px) {
+  .page1 {
+    background-size: 200vh;
+    background-position-y: -10vh;
+    background-position-x: -45vw;
+  }
+}
+@media all and (max-width: 606px) and (max-height: 1024px) {
+  .page1 {
+    background-size: 200vh;
+    background-position-y: -10vh;
+    background-position-x: -65vw;
   }
 }
 @media all and (max-width: 480px) and (max-height: 320px) {
